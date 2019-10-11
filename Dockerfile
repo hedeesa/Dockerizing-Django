@@ -1,17 +1,6 @@
 #Dockerfile for Django
 #Written by https://github.com/hedeesa/
 
-# this Dockerfile is based on this directory 
-# └── app
-#     ├── Pipfile
-#     ├── Pipfile.lock
-#     ├── django-hedeesa #put your prepared project here 
-#     │   ├── __init__.py
-#     │   ├── settings.py
-#     │   ├── urls.py
-#     │   └── wsgi.py
-#     └── manage.py
-
 #make this file in app/
 FROM python:3.6
 
