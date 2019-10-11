@@ -17,7 +17,7 @@ for more help, this is the map of directory that I was working:
    ```
    and you should making the Dockerfile under ```app/```
    
-   in Pipefile you should declear that which packages do you want to be installed, for me was like: 
+   After making VirtualEnv with pipenv (```pipenv shell```), in Pipefile you should declear that which packages do you want to be installed, for me was like: 
    ```
    [packages]
 django = "==2.1.*"
